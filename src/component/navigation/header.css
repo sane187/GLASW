@@ -1,0 +1,55 @@
+
+.navbar-brand{
+    font-family: "Roboto Condensed",sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.nav-link{
+        background-color: #fff;
+          font-family: "IBM Plex Sans",sans-serif;
+          font-weight: bolder;
+          margin-left: 15px;
+          padding: 0.5rem 1rem;
+          transition: all 0.2s;
+          font-size: 1.1rem;
+}
+
+.menu-link{
+    color:#05386b !important;
+}
+
+.menu-link::after{
+    content: "";
+    height: 3.5px;
+    width: 75%;
+    display: none;
+    background: #3ad867; 
+    position: relative;
+    left: 50%;
+    margin-top: 4px;
+    transform: translatex(-50%);
+}
+
+.menu-link:hover::after{
+    display: block ;
+}
+
+
+    
+    .dropdown-item:hover{
+      color:white !important;
+      background-color:#3ad867 !important ;}
+
+
+@media screen and (max-width:992px) {
+        
+        .menu-link:hover::after{
+            display: none ;
+        }
+
+        #navbar-top{
+            padding: 0 !important;
+        }
+      }
+      
+    

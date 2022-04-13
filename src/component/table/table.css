@@ -1,0 +1,25 @@
+.heading{
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    
+}
+
+.card-text{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    color:#05386b;
+    font-family:'Roboto Condensed',sans-serif; ;
+}
+
+.ca{
+    margin-top: 16vh;
+}
+
+@media screen and (max-width:768px) {
+ .ca{   margin-top: 8vh;}
+ .heading{
+     font-size:40px;
+ }
+}

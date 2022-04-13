@@ -1,0 +1,29 @@
+.c-head{
+    font-size: 3.2rem;
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+}
+
+.ban{
+    background: url("../../Assets/contact-us-background.jpg")
+}
+
+@media screen and (max-width:878px){
+    
+.ban{
+    background: url("../../Assets/contact-us-background.jpg") no-repeat top center;
+}
+    .c-head{
+        font-size:2rem ;
+    }
+
+    .fit{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:357px){
+   .c-head{
+       font-size: 1rem;
+   } 
+}

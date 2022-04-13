@@ -1,0 +1,112 @@
+.title-container{
+    background-image: url("../../Assets/woodjpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rubik',sans-serif;
+}
+
+.nav-link{
+    background-color: #fff;
+      font-family: "IBM Plex Sans",sans-serif;
+      font-weight: bolder;
+      margin-left: 15px;
+      padding: 0.5rem 1rem;
+      transition: all 0.2s;
+      font-size: 1.1rem;
+}
+
+.compare-title{
+    font-family: 'Rubik',sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.23;
+    letter-spacing: 1.1px;
+    color: #2f2f2f;
+    margin-bottom: 30px;
+}
+.compare-synopsis{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 1.43;
+    color: #636363;
+    margin-bottom: 65px;
+}
+
+.start-icon{
+    color:yellow;
+    background-color: yellow;
+}
+
+.dt::before{
+    position: absolute;
+    content: attr(data-description);
+    top: -19px;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    padding-bottom: 5px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.cross-line-header{
+    font-weight: 800;
+    font-size: 35px;
+    overflow: hidden;
+    text-align: center;
+    color: rgba(43,43,43,0.9);
+    margin: 0;}
+
+@media screen and (max-width:767px){
+    .price {
+        flex-direction: column;
+        
+    }
+.dt{
+    width: 100%;
+    margin-bottom: 10px;
+}
+    .dt::before{
+       display: none;
+    }
+   
+}
+
+tbody td{
+    background-color: white !important;
+    border: none;
+    text-align: center;
+}
+
+tbody th{
+    padding:10px 0 !important;
+    border: none;
+    text-align: center;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+thead th{
+    text-align: center;
+}
+
+.score-string{
+    margin:7px 0;
+    font-size: 50px;
+    font-family: 'Rubik',sans-serif;
+}
+
+
+@media screen and (max-width:400px){
+.tt1{
+    font-size: 14px;
+}
+
+.tt2{
+    font-size: 8.5px;
+}
+.compare-title{
+    font-size: 3.5rem
+}
+}
